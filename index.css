@@ -1,0 +1,120 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+    width:100%;
+    background-color:white;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+section{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;/*세로로 배치*/
+    
+    
+
+}
+.row_div ul{
+    display:flex;
+    flex-direction:row;
+    margin-right:50px;
+    list-style:none;
+}
+
+
+footer{
+    display:flex;
+    background-color:black;
+    color:white;
+    padding:40px 20px;
+    justify-content:flex-start;
+    margin-top:100px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+
+.bottom_bar {
+    display:flex;
+    flex-direction:row;
+    max-width:1200px;
+    margin:0 auto;
+    list-style-type:none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.bar_list{
+   flex:1;
+   margin-right:50px;
+   font-size:12px;
+   text-align:left;
+}
+.bar_list ul{
+    display:flex;
+    flex-direction: column;
+    list-style:none;
+    padding:0;
+    font-size:12px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.banner-text h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.item {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+.item img {
+    width: 100%;
+    height:100%;
+}
+
